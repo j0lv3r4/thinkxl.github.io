@@ -3,20 +3,20 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Rico <span>&amp;</span> Feliz 
-tagline:          Finanzas simples 
+title:            thinkxl
+tagline:          Code <span>&amp;</span> stuff.
 url:              http://localhost:4000/
 paginate:         4
 baseurl:          /
 author:
   name:           Juan Olvera 
-  url:            https://twitter.com/ricoyfelizblog
-  email:          juan@ricoyfeliz.net
+  url:            https://twitter.com/thinkxl
+  email:          thinkxl@gmail.com 
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/thinkxl/ricoyfeliz
+  repo:           https://github.com/thinkxl/thinkxl.github.io
 
 # Plugins 
 gems:
