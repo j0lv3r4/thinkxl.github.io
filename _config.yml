@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            thinkxl
 tagline:          Code <span>&amp;</span> stuff.
-url:              http://localhost:4000/
+url:              http://thinkxl.github.io
 paginate:         4
 baseurl:          /
 author:
