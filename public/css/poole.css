@@ -78,7 +78,8 @@ body {
 a {
   /* color: #268bd2; */
   /* color: green; */
-  color: #27ae60; 
+  color: brown;
+  /* color: #27ae60; */ 
   text-decoration: none;
 }
 a strong {
@@ -426,6 +427,28 @@ tbody tr:nth-child(odd) th {
   margin-right: 0.618rem;
   font-size: 0.818rem;
   font-style: italic;
+}
+
+/*
+ * Twitter 
+ */
+
+.twitter-follow-button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.twitter-follow-block {
+  display: block;
+  padding: 1em;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.twitter-follow-block h4 {
+  margin-top: 0;
 }
 
 .fa-facebook-square { color: #3b5998; }

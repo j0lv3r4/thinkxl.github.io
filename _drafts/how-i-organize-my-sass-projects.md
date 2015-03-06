@@ -1,5 +1,10 @@
-How I organize my Sass projects
--------------------------------
+---
+layout: post
+title: How I organize my Sass projects
+tag: Sass 
+author: Juan Olvera
+twitter: thinkxl
+---
 
 This is a basic writing on how I organize my Sass projects, mostly for self documentation than trying to tell "this is the right way to do it".
 
@@ -7,7 +12,7 @@ I use two kinds of structures, Mid &amp; small-size projects. I focus mostly on 
  
 ## Mid-size projects
 
-```
+{% highlight bash %}
 vendors/ # Use this if they are not inserted using bower install
   |-- _normalize.scss
   |-- _colorpicker.scss
@@ -36,11 +41,11 @@ pages/ # Specific pages styles
   |-- _contact.scss
 todo.scss # Styles that I can organize later
 main.scss # The manifest
-```
+{% endhighlight %}
 
 ## Small projects
 
-```
+{% highlight bash %}
 vendors/ # Use this if they are not inserted using bower install
   |-- _normalize.scss
   |-- _colorpicker.scss
@@ -62,7 +67,7 @@ pages/ # Specific pages styles
   |-- _pages.scss # Home, contact
 todo.scss # Styles that I can organize later
 main.scss # The manifest
-```
+{% endhighlight %}
 
 In both sizes I use the same folders and each one have their own mission on what they serve.
 
