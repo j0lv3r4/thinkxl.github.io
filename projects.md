@@ -15,14 +15,8 @@ title: Projects
 
 **[Try Bootstrap](http://trybootstrap.net/)**: Small [Bootstrap](http://getbootstrap.com/) playground.
 
-## Blogs
-
-**[Rico y Feliz](http://ricoyfeliz.net/)**: Personal finance blog in Spanish.
-
 ## Libraries
 
 **[Hyx.scss](http://thinkxl.github.io/hyx.less/)**: Less mixin that creates small, simple and useful fluid gird systems, *recently ported to [Sass](https://github.com/thinkxl/hyx.scss) too*.
 
 **[Type.scss](https://github.com/thinkxl/type)**: Sass library for setting good type styling (need to rename it, though).
-
-**[Onsite.js](https://github.com/thinkxl/OnSite)**: Library to check on-site <abbr>SEO</abbr> on a <abbr>HTML</abbr> string document.
