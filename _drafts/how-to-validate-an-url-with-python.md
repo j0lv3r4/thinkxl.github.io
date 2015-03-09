@@ -1,7 +1,9 @@
 ---
 layout: post
 title: How to Validate an URL with Python
-tag: Thoughts 
+tag:
+- Python
+- Snippets
 author: Juan Olvera
 twitter: thinkxl
 ---

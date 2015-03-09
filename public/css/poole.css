@@ -552,6 +552,28 @@ tbody tr:nth-child(odd) th {
 }
 
 /*
+ * Tags
+ */
+/* .tags { */
+/*   display: block; */
+/*   margin-left: auto; */
+/*   margin-right: auto; */
+/*   text-align: center; */
+/*   opacity: 0.8; */
+/* } */ 
+
+.tag {
+  margin-right: 0.2em;
+  /* padding: 0.2em 0.5em; */
+  color: #222;
+  font-style: italic;
+  font-size: 0.85em;
+  font-weight: bold;
+  /* border-radius: 4px; */
+  /* background-color: #eee; */
+}
+
+/*
  * Footer 
  */
 

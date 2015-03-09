@@ -10,7 +10,19 @@ layout: default
 		{{ page.intro }}
 	</div> <!-- .intro -->
 
-	— <em>By </em> <a class="post-author" href="http://twitter.com/{{ page.twitter }}">{{ page.author }}</a> <em>on</em> <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date: "%d/%m/%y" }}</time>
+  <p>— <em>By </em> <a class="post-author" href="http://twitter.com/{{ page.twitter }}">{{ page.author }}</a> <em>on</em> <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date: "%d/%m/%y" }}</time>
+  <em class="tags">
+    in 
+    {% for tag in page.tag %}
+      {% if forloop.first %}
+        <span class="tag">#{{ tag }}, </span>
+      {% else %}
+        <span class="tag">#{{ tag }}</span>
+      {% endif %}
+    {% endfor %}
+  </em>
+
+  </p>
 
 	<hr>
 
@@ -23,7 +35,7 @@ layout: default
     </script>
 
   {{ content }}
-
+  
   <p><a class="twitter-share-button"
     href="https://twitter.com/share">
     Tweet
@@ -34,6 +46,7 @@ layout: default
 
     <hr>
 
+    
     <div class="twitter-follow-block">
         <h4>You should follow me!</h4>
         <a href="https://twitter.com/thinkxl" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @thinkxl</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
