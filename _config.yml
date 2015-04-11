@@ -18,6 +18,9 @@ version:          1.0.0
 github:
   repo:           https://github.com/thinkxl/thinkxl.github.io
 
+sass:
+    style: :compressed
+
 # Plugins 
 gems:
   - jekyll-redirect-from

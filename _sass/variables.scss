@@ -1,0 +1,11 @@
+$site-width: 40em;
+
+// Colors
+$color-base: #777;
+$color-contrast: #e67e22;
+$color-headings: #555;
+$color-titles: $color-contrast;
+
+// Links colors
+$color-links: $color-contrast;
+$color-deco: lighten($color-contrast, 10%);
