@@ -7,11 +7,9 @@ author: Juan Olvera
 twitter: thinkxl
 ---
 
-### About TrueCrypt
+As you may know, on May 2014, TrueCrypt developers announced that the the project was discontinued and will no longer receive any updates and fixes. But before this happened [Kenneth White](https://twitter.com/kennwhite) and [Matthew Green](https://twitter.com/matthew_d_green) planned, crowd-sourced, and executed an [independent full-level](http://istruecryptauditedyet.com/) [security audit](http://blog.cryptographyengineering.com/2015/04/truecrypt-report.html).
 
-As you may know, on May 2014, TrueCrypt developers announced that the the project was discontinued and will no longer receive any updates and fixes. But before this happened [Kenneth White]() and [Matthew Green]() planned, crowd-sourced, and executed an [independent full-level](http://istruecryptauditedyet.com/) [security audit](http://blog.cryptographyengineering.com/2015/04/truecrypt-report.html).
-
-Which **TL;DR** is *"The NCC audit found no evidence of deliberate backdoors, or any severe design flaws that will make the software insecure in most instances"*.
+The **TL;DR** of the audit is *"The NCC audit found no evidence of deliberate backdoors, or any severe design flaws that will make the software insecure in most instances"*.
 
 This means that it's OK to keep using TrueCrypt 7.1a.
 
@@ -24,7 +22,7 @@ This means that it's OK to keep using TrueCrypt 7.1a.
 
 If you are using Yosemite you will get this error and the installation blocked.
 
-![TrueCrypt error](https://lazymind.me/images/truecrypt-install-error.png)
+![TrueCrypt error](/public/img/truecrypt-install-error.png)
 
 For some reason TrueCrypt thinks 10.10 is less than 10.4.
 
@@ -36,7 +34,7 @@ For some reason TrueCrypt thinks 10.10 is less than 10.4.
 4. Open the `distribution.dis` file with a text editor.
 5. Remove lines from 13 to 18.
 
-![](http://i.stack.imgur.com/UEruB.png)
+![](/public/img/truecrypt-error.png)
 
 6. Save the file and open the `.mpkg`.
 
@@ -63,6 +61,12 @@ Usage: Truecrypt [--auto-mount <str>] [--backup-headers] [--background-task] [-C
 {% endhighlight %}
 
 ### Basic usage:
+
+Create a volume:
+
+{% highlight bash %}
+$ truecrypt -c -t
+{% endhighlight %}
 
 Mount a volume:
 

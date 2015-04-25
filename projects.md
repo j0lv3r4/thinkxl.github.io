@@ -13,8 +13,6 @@ title: Projects
 
 **[PWG](http://thinkxl.github.io/pwg/)**: Small password generator.
 
-**[Try Bootstrap](http://trybootstrap.net/)**: Small [Bootstrap](http://getbootstrap.com/) playground.
-
 ## Libraries
 
 **[Hyx.scss](http://thinkxl.github.io/hyx.less/)**: Less mixin that creates small, simple and useful fluid gird systems, *recently ported to [Sass](https://github.com/thinkxl/hyx.scss) too*.

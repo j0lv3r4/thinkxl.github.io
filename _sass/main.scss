@@ -140,19 +140,6 @@ tbody tr:nth-child(odd) th {
   background: #fff;
 }
 
-.container {
-  max-width: 40em;
-  padding-left:  5rem;
-  padding-right: 5rem;
-  margin: 0 auto;
-}
-
-@media (min-width: 38em) {
-  .container {
-    margin: 0 auto;
-  }
-}
-
 /*
  * Top Header 
  */
@@ -258,8 +245,10 @@ tbody tr:nth-child(odd) th {
 }
 
 .social-icon {
-  /* margin-right: 0.218rem; */
-  font-size: 1rem;
+  margin-right: 0.218rem;
+  font-size: 1.5rem;
+
+	&:last-child { margin-right: 0; }
 }
 
 .social-label {
@@ -298,6 +287,7 @@ tbody tr:nth-child(odd) th {
 .fa-youtube-square { color: #b31217; }
 .fa-instagram { color: #3f729b; }
 .fa-rss-square { color: #f26522; }
+.fa-github-square { color: #6cc644; }
 
 /*
  * Posts and pages
@@ -319,13 +309,19 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 2em;
 }
 
-.page,
-.post {
+.page {
   margin-bottom: 1em;
+}
+
+.post {
+	margin-bottom: 4em;
+
+	&:last-child { margin-bottom: 0; }
 }
 
 /* Blog post or page title */
 .home .post-title {
+	margin-bottom: .5em;
   font-size: 1.618rem;
 }
 
@@ -346,7 +342,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .page-date {
-  color: #333;
+  color: #888;
 }
 
 .home .post-date {
@@ -404,7 +400,7 @@ tbody tr:nth-child(odd) th {
 
 .tag {
   /* padding: 0.2em 0.5em; */
-  color: #333;
+  color: #888;
   font-style: normal;
   font-size: 0.85em;
 	font-weight: bold;
@@ -421,7 +417,10 @@ tbody tr:nth-child(odd) th {
  */
 
 footer.footer {
-  margin-bottom: 1em;
+	margin-top: 3em;
+	padding: 2em 0 1em 0;
+	background-color: #333;
+	color: #fff;
   text-align: center;
 }
 

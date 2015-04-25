@@ -4,17 +4,7 @@
   {% include head.html %}
 
   <body>
-    <div class="top-nav-container">
-      <nav class="top-nav">
-        <ul class="top-nav-list">
-          <li class="top-nav-el"><a href="/about/">About</a></li>
-          <li class="top-nav-el"><a href="/projects/">Projects</a></li>
-          <li class="top-nav-el"><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
-    </div> <!-- .top-navigation -->
-
-    <div class="container content">
+    <div class="container content clearfix">
       <header class="masthead">
         <div class="branding">
           <h3 class="masthead-title">
@@ -25,37 +15,39 @@
 
         <div class="navigation">
           <nav class="main-nav">
-            <a class="main-nav-button" href="#"><i class="fa fa-bars"></i></a>
+            <ul class="top-nav-list">
+              <li class="top-nav-el"><a href="/about/">About</a></li>
+              <li class="top-nav-el"><a href="/projects/">Projects</a></li>
+              <li class="top-nav-el"><a href="mailto:thinkxl@gmail.com">Contact</a></li>
+            </ul>
           </nav>
         </div> <!-- .navigation -->
       </header>
 
       <main class="main-content">
-        {{ content }}
+        <div class="primary">
+          {{ content }}
+        </div> <!-- .primary -->
+
+        {% include sidebar.html %}
       </main>
+    </div>
 
-      <footer class="footer">
-        <p><small>This work is licensed under a<br> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+    <footer class="footer">
+      <div class="container">
+        <p>This work is licensed under a<br> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 
-        <p><small>Powered by <a href="http://jekyllrb.com/">Jekyll</a></small></p>
+        <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
+
 
         <nav class="social-icons">
           <ul class="social-icons-list">
             <li class="social-icon"><a href="http://twitter.com/thinkxl"><i class="fa fa-twitter-square"></i></a></li>
+            <li class="social-icon"><a href="http://github.com/thinkxl"><i class="fa fa-github-square"></i></a></li>
             <li class="social-icon"><a href="http://feeds.feedburner.com/thinkxl"><i class="fa fa-rss-square"></i></a></li>
           </ul>
         </nav> <!-- .social-icons -->
-      </footer>
-    </div>
-
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script>
-    var $navToggle = $('.main-nav'),
-      $navContainer = $('.top-nav-container');
-
-    $navToggle.on('click', function() {
-      $navContainer.slideToggle();
-    });
-  </script>
+      </div> <!-- .container -->
+    </footer>
   </body>
 </html>

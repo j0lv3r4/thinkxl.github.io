@@ -3,8 +3,10 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import "vendors/hyx";
 @import "variables";
 @import "utils";
 @import "base";
 @import "type";
 @import "main";
+@import "layout";

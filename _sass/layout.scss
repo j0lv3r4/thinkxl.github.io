@@ -1,0 +1,62 @@
+%layout {
+	float: left;
+}
+
+.container {
+  max-width: 52em;
+  margin: 0 auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+@media (min-width: 38em) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+.main-content {
+	@extend .clearfix;
+}
+
+.primary {
+	@extend %layout;
+
+	width: 100%;
+	margin-right: 0;
+
+	@include respond-to(48em) {
+		width: 67%;
+		margin-right: 3%;
+	}
+}
+
+.secondary {
+	@extend %layout;
+
+	display: none;
+	width: 100%;
+
+	.about {
+		padding: 1em 1.5em;
+		background: #eee;
+		border-radius: .5em;
+	}
+
+	.sidebar-title {
+		margin-top: 0;
+	}
+
+	.profile-pic {
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 0;
+		display: block;
+		width: 5em;
+		border-radius: 50%;
+	}
+
+	@include respond-to(48em) {
+		display: block;
+		width: 30%;
+	}
+}

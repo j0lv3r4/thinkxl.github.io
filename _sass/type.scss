@@ -1,6 +1,7 @@
 html {
   // font-family: "clavo",sans-serif;
-	font-family: 'Lato', sans-serif;
+	// font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
   // font-family: 'PT Sans';
   font-weight: 400;
   font-size: 16px;
@@ -103,11 +104,11 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: .05em .25em;
   font-size: 85%;
-  color: #666;
-  background-color: #eee;
-  border-radius: 8px;
+  color: darken($color-contrast, 5%);
+  background-color: lighten($color-contrast, 40%);
+  border-radius: 4px;
 }
 pre {
   display: block;

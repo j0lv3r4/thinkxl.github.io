@@ -3,9 +3,9 @@ layout: page
 title: About Me 
 ---
 
-My name is Juan Olvera (aka thinkxl) and I&rsquo;m a web designer &amp; front-end developer.
+My name is Juan Olvera, I&rsquo;m a web designer &amp; front-end developer.
 
-I'm passionate about web standards, open source software and the <abbr>UNIX</abbr> philosophy:
+I'm passionate about web standards, open source software, and the <abbr>UNIX</abbr> philosophy:
 
 > Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
 
