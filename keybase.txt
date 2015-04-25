@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/thinkxl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thinkxl.github.io
+  * I am thinkxl (https://keybase.io/thinkxl) on keybase.
+  * I have a public key with fingerprint CFF6 9B16 7F53 BC61 DFA9  C8C6 BACF 4830 71E4 5F7B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.8"
+        },
+        "key": {
+            "fingerprint": "cff69b167f53bc61dfa9c8c6bacf483071e45f7b",
+            "host": "keybase.io",
+            "key_id": "BACF483071E45F7B",
+            "uid": "13563f57db10c8d0b4295e5343f79f00",
+            "username": "thinkxl"
+        },
+        "merkle_root": {
+            "ctime": 1429941935,
+            "hash": "a885e0e9798eabf2d36a15944ce34ae33f56c0be4d29032069231da7faf8e7f9a514a61fbf40cba3e5c97230d8c43d003f81ea027ff8b9dc518fb3d28a0fd510",
+            "seqno": 210524
+        },
+        "service": {
+            "hostname": "thinkxl.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429942021,
+    "expire_in": 157680000,
+    "prev": "768974969303d556ece2b0cff5faae91b9339c8926a2ddf32c79b341f9f97630",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkn9QFVUUx98DRKBAHAVREWEhhIF57e7du7uXfoPgmKJoMomRuD/ufazgW3jv
+8StldGJIydQHNU4yo2MoNjrhgBFZKjn+QAjGchRQHCJ+aDmlQwUVY1C7aDO6f+29
+53O+53zPPZ5Ab4uXtWPumdLxuM311s57siXzhednbKVkXS2jkrZSSr6GHW7zzyFt
+wVQSlYfLZMmFbZoe6dBVbNvsinzMJFLF2OnSdIdB0TbBJlLliSZuJhPNYcfOAqdm
+alEKITySGV4gEMgKz6hEQoqo8LKkEE4EtMBgDhJBNiRzdZf7qarUtGaOphq3ya+l
+pD3iUzmYJiQbsaLpAAMgDwgUVJmhFVGlZY5FEEPAASIgQtMm6MLOx5bcuZojrzTf
+bHcLdubl4xynrk97VtyaSTBGOuIYBKDRkOTKNXIkUYSYxkhAIpZkwqqAlxiIOE7B
+gJMwMKrzCi1jTmURDViaRyxgVEkgEhGxQJAEGU7iGSITjlZkCWCoIIEFtCoqHFBp
+GhCRwRLNCoSIMlIVyIhEBiorSjRRIWM6cOFCh04lsQwNWa7cPDuLNQWbfZtTe9qc
+za65c4vkRwMscOpuXdHzjXCu213gSjKtu8sKDP5zqgTLOY+lcmTNoRov9+TTMgb6
+1FhYmmUSKVxaoDlxjmYSUOBF2vjMQrjYKGKckcAhHgEaqBDyWMGsTBtbAIkkYcTI
+CABjARDLS6yqEsAqApIBxxBEkMCDJ8wyyGhUshuaLs3ukNxFTkyVV3mF+1isXhbf
+GV7m8loC/IP/3+iqy7P+XXbswOyOObhjmfcszwroV//QPTCcnLXxftsDazfXOJF9
+zK/hjbghZpB8FVvBlmx4+ZW7p8BS7BvVeLdz260uenXQ++HNN62Lmz44eb4u4UZK
+CFU4v3N079iXUc9cONF3qC89pXJy6ahXy5UTh2tOt6862uqtWXviav9aHnrN0nt9
+TfaR2DkNQRVLxqorr0sps0asmZlRc9T5vVloojm67fgez0ULaGw5edzF+G5asG0h
+WHf24JHXq6UTYZ/9uOvKvJx9736U3lDvvedBpV/K0KKbhyx6RlPwPwFKzL24q3L9
+4dqZlyp2ZGU/53P09jhVMzLkuyMgZvATa1xM3x3/hKZT8fNsI/awoIy0smfHp5J3
+N5a8uTD7rfUtY/ov7dJU+e+efjkstO7yeG3H8fUatX3g2uiET0XqzIffwYme3kn1
+4ITnPtyXtymuunl3fMiv+ed2bvg6dNCWURWe+rFP6506z3DxmVVru5afvT126eqN
+rIx3vrgY/WH/aGgHtSIhqj+6vS1oSYxl7rrx4b6J7tlnO1ar53+O/HTvT7s8NzoH
+lB9aG7teSnG1b48NJBuvtNW8t3/Hmr/t3y+aTF+5P9B/QXC3d/3a0YjLEa7m34Zf
+DE+Gnlvh2wu/XZvQNZi4AXLFK9uKrg90p3pwT1nD6ZI1AXv/LG4bKtx5YCre/s2F
+cniSDvnDZ9T/7VcXn4v4Dw==
+=ymh4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thinkxl
+
+==================================================================
