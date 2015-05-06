@@ -1,15 +1,16 @@
 html {
   // font-family: "clavo",sans-serif;
-	// font-family: 'Lato', sans-serif;
-	font-family: 'Lora', serif;
+	font-family: 'Lato', sans-serif;
+	// font-family: 'Lora', serif;
   // font-family: 'PT Sans';
+	// font-family: $font-family;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+	letter-spacing: 1px;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -28,19 +29,22 @@ a {
 a:hover,
 a:focus {
 	color: darken($color-links, 5%);
-  text-decoration: underline;
+  text-decoration: none;
+	border-bottom: 3px solid lighten($color-base, 5%);
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+	font-family: $font-family;
+  font-weight: 700;
   line-height: 1.25;
-  color: $color-headings;
+  color: darken($color-base, 15%);
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
+  font-weight: 800;
 }
 h2 {
   margin-top: 1rem;
@@ -59,6 +63,8 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+	// letter-spacing: 1px;
+	line-height: 1.5;
 }
 
 strong {
@@ -81,10 +87,11 @@ dd {
 /* Misc */
 hr {
   position: relative;
+	width: 20%;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: none;
+  border-bottom: 3px solid red;
 }
 
 abbr {
@@ -99,6 +106,7 @@ abbr[title] {
 }
 
 /* Code */
+
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -106,9 +114,10 @@ pre {
 code {
   padding: .05em .25em;
   font-size: 85%;
-  color: darken($color-contrast, 5%);
-  background-color: lighten($color-contrast, 40%);
+  color: darken($color-code, 5%);
+  background-color: $code-background;
   border-radius: 4px;
+	border: 1px solid darken(#eee, 5%);
 }
 pre {
   display: block;
@@ -121,13 +130,17 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  // background-color: #fafafa;
+  background-color: $code-background;
 	// border: 2px solid #eee;
 	// border-radius: 8px;
 }
+
+.highlight pre { background-color: #fff; }
+
 pre code {
   padding: 0;
   font-size: 100%;
   color: inherit;
-  background-color: transparent;
+  background-color: #fff;
+	border: none;
 }

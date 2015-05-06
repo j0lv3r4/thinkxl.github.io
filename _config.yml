@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            thinkxl
-tagline:          Code <span>&amp;</span> stuff.
+title:            thinkxl 
+tagline:          Code <span>&</span> stuff.
 url:              http://thinkxl.github.io
 paginate:         4
 baseurl:          /

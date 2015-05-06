@@ -1,10 +1,19 @@
 $site-width: 40em;
 
+$font-family: 'Open Sans', sans-serif;
+
 // Colors
-$color-base: #777;
-$color-contrast: #e67e22;
+// $body-bg: #f4f6f5;
+$body-bg: #fff;
+$color-base: #555;
+$color-contrast: #333;
 $color-headings: #555;
 $color-titles: $color-contrast;
+
+// Code
+$color-code: $color-base;
+// $code-background: lighten($color-base, 60%);
+$code-background: #eee;
 
 // Links colors
 $color-links: $color-contrast;

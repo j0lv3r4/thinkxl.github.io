@@ -21,7 +21,7 @@
 
 .top-nav-el {
 	display: inline-block;
-	margin-right: 1em;
+	margin-right: .3em;
 
 	&:last-child {
 		margin-right: none;
@@ -137,7 +137,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .content {
-  background: #fff;
+  background: $body-bg;
 }
 
 /*
@@ -157,11 +157,11 @@ tbody tr:nth-child(odd) th {
   }
 
   .branding {
-    width: 70%;
+    width: 50%;
   }
 
   .navigation {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -186,7 +186,7 @@ tbody tr:nth-child(odd) th {
 }
 .masthead-title a {
   color: #505050;
-  font-size: 0.818em;
+  font-size: 1em;
 }
 .masthead-title small {
   font-size: 75%;
@@ -197,8 +197,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title span {
-  color: #999;
-  font-style: italic;
+	color: #999;
+	font-style: italic;
 }
 
 /*
@@ -272,7 +272,7 @@ tbody tr:nth-child(odd) th {
   padding: 1em;
   border-radius: 4px;
   text-align: center;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .twitter-follow-block h4 {
@@ -422,6 +422,8 @@ footer.footer {
 	background-color: #333;
 	color: #fff;
   text-align: center;
+
+	a { color: #fff; }
 }
 
 
