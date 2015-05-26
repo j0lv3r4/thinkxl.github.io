@@ -1,9 +1,9 @@
 html {
   // font-family: "clavo",sans-serif;
-	font-family: 'Lato', sans-serif;
+	// font-family: 'Lato', sans-serif;
 	// font-family: 'Lora', serif;
   // font-family: 'PT Sans';
-	// font-family: $font-family;
+	font-family: $font-family;
   font-weight: 400;
   font-size: 16px;
 	letter-spacing: 1px;
@@ -112,12 +112,13 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .05em .25em;
+  padding: 2px 6px;
   font-size: 85%;
-  color: darken($color-code, 5%);
-  background-color: $code-background;
+	background-color: #eee;
   border-radius: 4px;
-	border: 1px solid darken(#eee, 5%);
+  // color: darken($color-code, 5%);
+  // background-color: $code-background;
+	// border: 1px solid darken(#eee, 5%);
 }
 pre {
   display: block;
@@ -130,17 +131,17 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: $code-background;
+  // background-color: $code-background;
 	// border: 2px solid #eee;
 	// border-radius: 8px;
 }
 
-.highlight pre { background-color: #fff; }
+// .highlight pre { background-color: #fff; }
 
 pre code {
   padding: 0;
   font-size: 100%;
   color: inherit;
-  background-color: #fff;
+  background-color: inherit;
 	border: none;
 }
