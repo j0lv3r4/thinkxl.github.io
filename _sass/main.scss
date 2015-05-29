@@ -1,33 +1,4 @@
 /* Top navigation */
-.top-nav-container {
-	display: none;
-	width: 100%;
-	padding: 0.5em 0;
-	color: #fff;
-	background-color: #333;
-	text-align: center;
-
-	a {
-		color: #fff;
-	}
-}
-
-.top-nav-list {
-	margin-left: 0;
-	margin-bottom: 0;
-	padding-left: 0;
-	list-style: none;
-}
-
-.top-nav-el {
-	display: inline-block;
-	margin-right: .3em;
-
-	&:last-child {
-		margin-right: none;
-	}
-}
-
 
 /* Pygments via Jekyll */
 .highlight {
@@ -150,18 +121,38 @@ tbody tr:nth-child(odd) th {
     width: 100%;
 }
 
+.navigation {
+	padding: .8em 0;
+	background-color: darken(#f00, 2%);
+}
+
+.top-nav-list {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.top-nav-el {
+	display: inline-block;
+	margin-right: 1em;
+
+	a { 
+		color: #fff; 
+		text-transform: uppercase;
+		border-color: darken(#f00, 5%);
+	}
+
+	&:last-child {
+		margin-right: none;
+	}
+}
+
 @media (min-width: 38em) {
   .branding,
   .navigation {
     float: left;
-  }
-
-  .branding {
-    width: 50%;
-  }
-
-  .navigation {
-    width: 50%;
   }
 }
 
@@ -173,31 +164,32 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  width: 100%;
-  display: table;
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+	float: left;
+	padding: 4em 0;
+	width: 100%;
+	text-align: center;
+	background-image: url('/public/img/hero.jpeg');
+	background-size: 100% auto;
 }
 .masthead-title {
-  margin-top: 0;
-  margin-bottom: 1em;
-  color: #505050;
+	margin: 0;
+  color: #fff;
 }
 .masthead-title a {
-  color: #505050;
-  font-size: 1em;
+  color: #fff;
+  font-size: 1.5em;
+	border-color: #eee;
 }
 .masthead-title small {
   font-size: 75%;
   font-style: italic;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #fff;
   letter-spacing: 0;
 }
 
 .masthead-title span {
-	color: #999;
+	color: #fff;
 	font-style: italic;
 }
 
@@ -209,11 +201,7 @@ tbody tr:nth-child(odd) th {
   float: none;
   position: relative;
 }
-@media (min-width: 38em) {
-  .main-nav {
-    float: right;
-  }
-}
+@media (min-width: 38em) {}
 
 .main-nav:hover .main-nav-list {
   display: block;
@@ -227,6 +215,10 @@ tbody tr:nth-child(odd) th {
   width: 5em;
   list-style: none;
   background-color: #eee;
+}
+
+.primary {
+	margin-top: 2em;
 }
 
 /*

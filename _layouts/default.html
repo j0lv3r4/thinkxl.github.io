@@ -4,26 +4,35 @@
   {% include head.html %}
 
   <body>
-    <div class="container content clearfix">
-      <header class="masthead">
+    <div class="navigation">
+      <div class="container">
+        <nav class="main-nav">
+          <ul class="top-nav-list">
+            <li class="top-nav-el"><a href="/">Home</a></li>
+            <li class="top-nav-el"><a href="/about/">About</a></li>
+            <li class="top-nav-el"><a href="/projects/">Projects</a></li>
+            <li class="top-nav-el"><a href="mailto:thinkxl@gmail.com">Contact</a></li>
+          </ul> <!-- .top-nav-list -->
+        </nav> <!-- .main-nav -->
+      </div> <!-- .container -->
+    </div> <!-- .navigation -->
+
+    {% if page.title == "Home" %}
+
+    <header class="masthead">
+      <div class="container">
         <div class="branding">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div> <!-- .branding -->
+      </div> <!-- .container -->
+    </header> <!-- .masthead -->
 
-        <div class="navigation">
-          <nav class="main-nav">
-            <ul class="top-nav-list">
-              <li class="top-nav-el"><a href="/about/">About</a></li>
-              <li class="top-nav-el"><a href="/projects/">Projects</a></li>
-              <li class="top-nav-el"><a href="mailto:thinkxl@gmail.com">Contact</a></li>
-            </ul>
-          </nav>
-        </div> <!-- .navigation -->
-      </header>
+    {% endif %}
 
+    <div class="container content clearfix">
       <main class="main-content">
         <div class="primary">
           {{ content }}
@@ -33,7 +42,9 @@
 
     <footer class="footer">
       <div class="container">
-        <p>This work is licensed under a<br> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        <p>The content of this site is licensed under a<br> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+
+        <p>The <a href="https://github.com/thinkxl/thinkxl.github.io">source code</a> for this site is open sourced under the <a href="https://github.com/thinkxl/thinkxl.github.io/blob/master/LICENSE.md">MIT license</a>.</p>
 
         <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
 
