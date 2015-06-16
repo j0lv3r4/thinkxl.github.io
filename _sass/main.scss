@@ -123,7 +123,8 @@ tbody tr:nth-child(odd) th {
 
 .navigation {
 	padding: .8em 0;
-	background-color: darken(#f00, 2%);
+	// background-color: darken(#f00, 2%);
+	background-color: $color-navigation-background;
 }
 
 .top-nav-list {
@@ -137,11 +138,12 @@ tbody tr:nth-child(odd) th {
 .top-nav-el {
 	display: inline-block;
 	margin-right: 1em;
+	margin-bottom: 0;
 
 	a { 
-		color: #fff; 
+		color: $color-navigation-text; 
 		text-transform: uppercase;
-		border-color: darken(#f00, 5%);
+		border-color: darken($color-navigation-text, 5%);
 	}
 
 	&:last-child {

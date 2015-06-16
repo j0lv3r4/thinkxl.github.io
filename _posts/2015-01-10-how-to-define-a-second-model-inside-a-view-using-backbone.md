@@ -6,9 +6,9 @@ author: Juan Olvera
 twitter: thinkxl
 ---
 
-While trying to build a mobile app for a client I ran across to the need to add a second model inside a view. 
+Trying to build a mobile app for a client I needed to add a second model inside a single view, apparently it doesn&rsquo;t work out of the box. 
 
-After googling for a while without a very concise answer I decided to go to the IRC and ask in there, as I expected I got the answer right away.
+After googling for a while, without success, I decided to go to the IRC and ask in there. As I expected I got the answer right away.
 
 When you try to initialize a view inside a route like this:
 
@@ -46,8 +46,7 @@ var HomeView = Backbone.View.extend({
   events: {},
 
   initialize: function() {
-
-  this.render();
+    this.render();
     console.log(this.client); // Trying to access `clientModel`
   },
 
@@ -57,7 +56,11 @@ var HomeView = Backbone.View.extend({
 });
 {% endhighlight %}
 
-It won't work, I don't know why, I'm still investigating that but to make it work you will need to get the second model from the parameters passed in the `initialize` function when you create the view:
+It won&rsquo;t work. 
+
+## Solution
+
+You will need to get the second model from the parameters passed in the `initialize` function when you create the view:
 
 {% highlight javascript %}
 var HomeView = Backbone.View.extend({

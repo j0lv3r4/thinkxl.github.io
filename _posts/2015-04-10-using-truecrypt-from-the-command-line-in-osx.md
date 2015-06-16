@@ -7,15 +7,19 @@ author: Juan Olvera
 twitter: thinkxl
 ---
 
-As you may know, on May 2014, TrueCrypt developers announced that the the project was discontinued and will no longer receive any updates and fixes. But before this happened [Kenneth White](https://twitter.com/kennwhite) and [Matthew Green](https://twitter.com/matthew_d_green) planned, crowd-sourced, and executed an [independent full-level](http://istruecryptauditedyet.com/) [security audit](http://blog.cryptographyengineering.com/2015/04/truecrypt-report.html).
+If you *still* love TrueCrypt and like to keep all you workflow inside the command line like me, this small guide is for you.
 
-The **TL;DR** of the audit is *"The NCC audit found no evidence of deliberate backdoors, or any severe design flaws that will make the software insecure in most instances"*.
+### A comment before the installation
 
-This means that it's OK to keep using TrueCrypt 7.1a.
+As you may know, on May 2014, [TrueCrypt](http://truecrypt.sourceforge.net/) developers announced that the the project was discontinued and will no longer receive any updates and fixes. But before this happened, [Kenneth White](https://twitter.com/kennwhite) and [Matthew Green](https://twitter.com/matthew_d_green) planned, crowd-sourced, and executed an [independent full-level](http://istruecryptauditedyet.com/) [security audit](http://blog.cryptographyengineering.com/2015/04/truecrypt-report.html).
+
+**TL;DR:** *"The NCC audit found no evidence of deliberate backdoors, or any severe design flaws that will make the software insecure in most instances"*.
+
+This means that it's OK to keep using TrueCrypt 7.1a. This being said, let&rsquo;s continue with the installation guide.
 
 ### Installation
 
-1. Download the **TrueCrypt 7.1a Mac OS X.dmg** file from [here](https://www.grc.com/misc/truecrypt/truecrypt.htm).
+1. Download the [**TrueCrypt 7.1a Mac OS X.dmg**](https://www.grc.com/misc/truecrypt/truecrypt.htm) file .
 2. Open the `.dmg` file and double click the `.mpkg` installer.
 
 ### Yosemite Issue
@@ -71,13 +75,13 @@ $ truecrypt -c -t
 Mount a volume:
 
 {% highlight bash %}
-$ truecrypt <file-to-encrypt> <mount-point>
+$ truecrypt secrets.tc /Volumes/truecrypt1
 {% endhighlight %}
 
-Unmount specific volume
+Unmount specific volume:
 
 {% highlight bash %}
-$ truecrypt -d <volume-to-unmount>
+$ truecrypt -d /Volumes/truecrypt1
 {% endhighlight %}
 
 Unmount all volumes:
@@ -86,9 +90,10 @@ Unmount all volumes:
 $ truecrypt -d
 {% endhighlight %}
 
-You can find a more complete documentation in here:
+Full documentation and man page:
 
 - [https://wiki.archlinux.org/index.php/TrueCrypt](https://wiki.archlinux.org/index.php/TrueCrypt)
+- [TrueCrypt man page]({{ site.url }}/public/docs/truecrypt_man_page.txt)
 
 Related links:
 

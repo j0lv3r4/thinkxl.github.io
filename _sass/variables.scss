@@ -8,6 +8,9 @@ $font-family: 'Roboto', sans-serif;
 $body-bg: #fff;
 $color-base: #555;
 $color-contrast: #333;
+$color-navigation-background: #e74c3c;
+$color-navigation-text: darken($color-navigation-background, 20%);
+// $color-navigation: #f00;
 $color-headings: #555;
 $color-titles: $color-contrast;
 
