@@ -141,6 +141,7 @@ tbody tr:nth-child(odd) th {
 	margin-bottom: 0;
 
 	a { 
+		font-family: $font-family-headers;
 		color: $color-navigation-text; 
 		text-transform: uppercase;
 		border-color: darken($color-navigation-text, 5%);
@@ -266,7 +267,7 @@ tbody tr:nth-child(odd) th {
   padding: 1em;
   border-radius: 4px;
   text-align: center;
-  background-color: #fff;
+  background-color: #eee;
 }
 
 .twitter-follow-block h4 {
@@ -298,9 +299,23 @@ tbody tr:nth-child(odd) th {
   line-height: 1.25;
 }
 
-.post img {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.post {
+	img {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+}
+
+.home a {
+	border-color: #626262 !important;
+}
+
+.post {
+	a {
+		color: $color-navigation-background;
+		border-color: $color-navigation-background;
+	}
 }
 
 .page {
@@ -374,7 +389,6 @@ tbody tr:nth-child(odd) th {
   font-size: 0.875em;
 }
 .related-posts li a:hover {
-  color: orange;
   text-decoration: none;
 }
 .related-posts li a:hover small {

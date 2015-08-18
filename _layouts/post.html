@@ -17,23 +17,23 @@ layout: default
     {% if page.tags.size > 2 %}
       {% for tag in page.tag %}
         {% if forloop.first %}
-          <span class="tag">#{{ tag }}, </span>
+          <span class="tag">{{ tag }}, </span>
         {% elsif forloop.last %}
-          &amp; <span class="tag">#{{ tag }}</span>
+          &amp; <span class="tag">{{ tag }}</span>
         {% else %}
-          <span class="tag">#{{ tag }} </span>
+          <span class="tag">{{ tag }} </span>
         {% endif %}
       {% endfor %}
     {% elsif page.tags.size == 2 %}
       {% for tag in page.tag %}
         {% if forloop.first %}
-          <span class="tag">#{{ tag }}</span>
+          <span class="tag">{{ tag }}</span>
         {% elsif forloop.last %}
-          &amp; <span class="tag">#{{ tag }}</span>
+          &amp; <span class="tag">{{ tag }}</span>
         {% endif %}
       {% endfor %}
     {% else %}
-      <span class="tag">#{{ page.tag }}</span>
+      <span class="tag"#{{ page.tag }}</span>
     {% endif %}
     </em>
   </span>

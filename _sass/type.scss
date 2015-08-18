@@ -6,7 +6,6 @@ html {
 	font-family: $font-family;
   font-weight: 400;
   font-size: 16px;
-	letter-spacing: 1px;
 }
 @media (min-width: 38em) {
   html {
@@ -36,7 +35,7 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-	font-family: $font-family;
+	font-family: $font-family-headers;
   font-weight: 700;
   line-height: 1.25;
   color: darken($color-base, 15%);
@@ -77,6 +76,7 @@ ul, ol, dl {
   margin-bottom: 1rem;
 
 	li { margin-bottom: 0.5rem; }
+	li ul { margin-top: 0.5rem; }
 }
 
 dt {
