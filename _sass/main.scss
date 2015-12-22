@@ -22,7 +22,7 @@
 }
 .gist .gist-file .gist-data {
   font-size: .8rem !important;
-	 line-height: 1.4;
+   line-height: 1.4;
 }
 .gist code {
   padding: 0;
@@ -122,34 +122,34 @@ tbody tr:nth-child(odd) th {
 }
 
 .navigation {
-	padding: .8em 0;
-	// background-color: darken(#f00, 2%);
-	background-color: $color-navigation-background;
+  padding: .8em 0;
+  // background-color: darken(#f00, 2%);
+  background-color: $color-navigation-background;
 }
 
 .top-nav-list {
-	margin-left: 0;
-	margin-bottom: 0;
-	padding-left: 0;
-	text-align: center;
-	list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
 }
 
 .top-nav-el {
-	display: inline-block;
-	margin-right: 1em;
-	margin-bottom: 0;
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 0;
 
-	a { 
-		font-family: $font-family-headers;
-		color: $color-navigation-text; 
-		text-transform: uppercase;
-		border-color: darken($color-navigation-text, 5%);
-	}
+  a { 
+    font-family: $font-family-headers;
+    color: $color-navigation-text; 
+    text-transform: uppercase;
+    border-color: darken($color-navigation-text, 5%);
+  }
 
-	&:last-child {
-		margin-right: none;
-	}
+  &:last-child {
+    margin-right: none;
+  }
 }
 
 @media (min-width: 38em) {
@@ -167,21 +167,22 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-	float: left;
-	padding: 4em 0;
-	width: 100%;
-	text-align: center;
-	background-image: url('/public/img/hero-small.jpg');
-	background-size: 100% auto;
+  float: left;
+  padding: 4em 0;
+  width: 100%;
+  text-align: center;
+  background-image: url('/public/img/hero-small.jpg');
+  color: #333;
+  background-size: 100% auto;
 }
 .masthead-title {
-	margin: 0;
+  margin: 0;
   color: #fff;
 }
 .masthead-title a {
   color: #fff;
   font-size: 1.5em;
-	border-color: #eee;
+  border-color: #eee;
 }
 .masthead-title small {
   font-size: 75%;
@@ -192,8 +193,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title span {
-	color: #fff;
-	font-style: italic;
+  color: #fff;
+  font-style: italic;
 }
 
 /*
@@ -221,7 +222,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .primary {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 /*
@@ -243,7 +244,7 @@ tbody tr:nth-child(odd) th {
   margin-right: 0.218rem;
   font-size: 1.5rem;
 
-	&:last-child { margin-right: 0; }
+  &:last-child { margin-right: 0; }
 }
 
 .social-label {
@@ -291,31 +292,31 @@ tbody tr:nth-child(odd) th {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.post-intro {		
-	margin-top: 1.618rem;
-	margin-bottom: 1.618rem;
-	color: #999;
-	font-size: 1.336rem;
+.post-intro {   
+  margin-top: 1.618rem;
+  margin-bottom: 1.618rem;
+  color: #999;
+  font-size: 1.336rem;
   line-height: 1.25;
 }
 
 .post {
-	img {
-		margin-top: 2em;
-		margin-bottom: 2em;
-	}
+  img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 
 }
 
 .home a {
-	border-color: #626262 !important;
+  border-color: #626262 !important;
 }
 
 .post {
-	a {
-		color: $color-navigation-background;
-		border-color: $color-navigation-background;
-	}
+  a {
+    color: $color-navigation-background;
+    border-color: $color-navigation-background;
+  }
 }
 
 .page {
@@ -323,14 +324,14 @@ tbody tr:nth-child(odd) th {
 }
 
 .post {
-	margin-bottom: 4em;
+  margin-bottom: 4em;
 
-	&:last-child { margin-bottom: 0; }
+  &:last-child { margin-bottom: 0; }
 }
 
 /* Blog post or page title */
 .home .post-title {
-	margin-bottom: .5em;
+  margin-bottom: .5em;
   font-size: 1.618rem;
 }
 
@@ -347,7 +348,7 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .page-date,
 .post-author {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .page-date {
@@ -355,7 +356,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .home .post-date {
-	color: #ccc;
+  color: #ccc;
 }
 
 .post-date {
@@ -411,13 +412,13 @@ tbody tr:nth-child(odd) th {
   color: #888;
   font-style: normal;
   font-size: 0.85em;
-	font-weight: bold;
+  font-weight: bold;
   /* border-radius: 4px; */
   /* background-color: #eee; */
 }
 
 .post-meta {
-	color: #aaa;
+  color: #aaa;
 }
 
 /*
@@ -425,13 +426,13 @@ tbody tr:nth-child(odd) th {
  */
 
 footer.footer {
-	margin-top: 3em;
-	padding: 2em 0 1em 0;
-	background-color: #333;
-	color: #fff;
+  margin-top: 3em;
+  padding: 2em 0 1em 0;
+  background-color: #333;
+  color: #fff;
   text-align: center;
 
-	a { color: #fff; }
+  a { color: #fff; }
 }
 
 

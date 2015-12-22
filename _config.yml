@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            thinkxl 
-tagline:          Code <span>&</span> stuff.
+tagline:          Mostly CSS, JavaScript, and Python.
 url:              http://thinkxl.github.io
 paginate:         4
 baseurl:          /
@@ -22,5 +22,4 @@ sass:
     style: :compressed
 
 # Plugins 
-gems:
-  - jekyll-redirect-from
+# gems:
