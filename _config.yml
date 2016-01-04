@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            thinkxl 
 tagline:          Mostly CSS, JavaScript, and Python
-url:              http://thinkxl.github.io
+url:              http://thinkxl.codes
 paginate:         4
 baseurl:          /
 author:
