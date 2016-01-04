@@ -168,33 +168,48 @@ tbody tr:nth-child(odd) th {
 
 .masthead {
   float: left;
-  padding: 4em 0;
+  padding: 2em 0 2em;
   width: 100%;
-  text-align: center;
-  background-image: url('/public/img/hero-small.jpg');
-  color: #333;
-  background-size: 100% auto;
-}
-.masthead-title {
-  margin: 0;
   color: #fff;
-}
-.masthead-title a {
-  color: #fff;
-  font-size: 1.5em;
-  border-color: #eee;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-style: italic;
   font-weight: 400;
-  color: #fff;
-  letter-spacing: 0;
+  text-align: left;
+  background-size: 100% auto;
+  // background-color: #eee;
+  background-image: url('/public/img/hero-small.jpg');
+  border-bottom: 4px solid #eee;
 }
 
-.masthead-title span {
+.masthead-title {
+  margin: 0 0 1em;
+  font-family: $font-family;
+}
+
+.masthead-title a {
+  // color: #a82315;
+  font-weight: normal;
   color: #fff;
+  font-size: 1.5em;
   font-style: italic;
+  border-color: #eee;
+
+  &:hover {
+    border: 0;
+  }
+}
+
+.tagline {
+  // @extend .visuallyhidden;
+}
+
+.hr-home {
+  width: 40%;
+  margin: 0 auto 1.3em;
+  border-color: #ccc;
+}
+
+.hr-container {
+  float: left;
+  width: 100%;
 }
 
 /*
