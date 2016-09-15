@@ -125,6 +125,10 @@ tbody tr:nth-child(odd) th {
   padding: .8em 0;
   // background-color: darken(#f00, 2%);
   background-color: $color-navigation-background;
+
+  a {
+    font-weight: 400;   
+  }
 }
 
 .top-nav-list {
@@ -327,6 +331,7 @@ tbody tr:nth-child(odd) th {
   border-color: #626262 !important;
 }
 
+.page,
 .post {
   a {
     color: $color-navigation-background;
@@ -353,11 +358,14 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: $color-titles;
+  color: $color-titles !important;
 }
 .page-title,
 .post-title {
   margin-top: 0;
+}
+.page-title {
+  margin-bottom: .8em;
 }
 
 /* Meta data line below post title */
@@ -462,8 +470,6 @@ footer.footer {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
-  color: #ccc;
   text-align: center;
 }
 
@@ -471,6 +477,7 @@ footer.footer {
 .pagination-item {
   display: block;
   padding: 1rem;
+  color: #ccc;
   border: 1px solid #eee;
 }
 .pagination-item:first-child {

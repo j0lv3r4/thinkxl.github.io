@@ -8,7 +8,7 @@ $font-family-headers: 'Roboto', sans-serif;
 // Colors
 // $body-bg: #f4f6f5;
 $body-bg: #fff;
-$color-base: #555;
+$color-base: #444;
 $color-contrast: #333;
 $color-navigation-background: #e74c3c;
 $color-navigation-text: darken($color-navigation-background, 20%);
@@ -16,11 +16,13 @@ $color-navigation-text: darken($color-navigation-background, 20%);
 $color-headings: #555;
 $color-titles: $color-contrast;
 
+$color-red: #AB2416;
+
 // Code
 $color-code: $color-base;
 // $code-background: lighten($color-base, 60%);
 $code-background: #eee;
 
 // Links colors
-$color-links: $color-contrast;
+$color-links: darken($color-contrast, 10%);
 $color-deco: lighten($color-contrast, 10%);

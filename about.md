@@ -3,13 +3,13 @@ layout: page
 title: About Me 
 ---
 
-My name is Juan Olvera, I&rsquo;m a web designer &amp; front-end developer.
+I'm Juan Olvera, a front-end developer located in Conroe, TX.
 
-I'm passionate about web standards, open source software, and the <abbr>UNIX</abbr> philosophy:
+Currently working at <a href="http://endurance.com/">Endurance International Group</a>.
+
+Passionate about web standards, open source software, and the <abbr>UNIX</abbr> philosophy:
 
 > Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
-
-I work with small and medium size businesses and agencies in TX, designing &amp; developing web projects using <abbr>HTM</abbr>, <abbr>CSS</abbr> and JavaScript.
 
 ## Technical Skills
 
@@ -17,9 +17,8 @@ I work with small and medium size businesses and agencies in TX, designing &amp;
 
 - <abbr>HTML</abbr>
 - <abbr>CSS</abbr>, (including pre-processors Sass and Less)
-- JavaScript (Client), libraries like jQuery, React, Backbone, Underscore/Lo-dash
-- JavaScript (Server), Node.js &amp; Express.js
-- WordPress themes design &amp; development
+- JavaScript
+- WordPress theme development
 
 ### Other programming languages
 
@@ -47,11 +46,11 @@ I work with small and medium size businesses and agencies in TX, designing &amp;
 - Web design &amp; front-end development
 - <abbr>UI</abbr>/<abbr>UX</abbr> design 
 - Technical writing 
-- Graphic design 
 - Typography
 - JavaScript programming
 - Shell programming
 - Python programming
+- Web apps Security &amp; penetration testing
 - Cryptography
 
 ## Me everywhere else
@@ -60,5 +59,5 @@ I work with small and medium size businesses and agencies in TX, designing &amp;
 - [Bitbucket](http://bitbucket.com/thinkxl)
 - [Twitter](http://twitter.com/thinkxl)
 - [Keybase](http://keybase.io/thinkxl)
-- [Svbtle](http://thinkxl.svbtle.com)
+- [Dribbble](https://dribbble.com/thinkxl)
 - [LinkedIn](http://linkedin.com/in/juanolvera/)

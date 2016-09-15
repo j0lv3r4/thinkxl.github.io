@@ -1,6 +1,5 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            thinkxl 
@@ -22,4 +21,4 @@ sass:
     style: :compressed
 
 # Plugins 
-# gems:
+gems: [jekyll-paginate]
